@@ -29,17 +29,22 @@
   # To analyze a single bitcode file, say "test.bc", run:
   $ ./slicer/build/lib/kanalyzer -sl ./test.bc
 ```
+## Access
+  We grant access to the tool and its code for research purposes. Please send an email to lyz_cs@pku.edu.cn with subject `[SCSlicer] code access` and specify in the body your `gitlab` username, so we can grant you access to a private repository that we use for the project. We will keep your data confidential.
+ 
 ## Publication
   For more details about SCSlicer, please refer to our DSN-W paper:  
-["Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"](https://conferences.computer.org/dsnpub/pdfs/DSN-W2021-3GVHu2G8Nh8yRXXQD8x0pf/395000a108/395000a108.pdf "SCSlicer")
+["Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"](https://ieeexplore.ieee.org/document/9502447 "SCSlicer")
 
 ## Cite
 ```bibtex
-@INPROCEEDINGS{SCSlicer21,
-  AUTHOR =       {Yongzhi Liu, Xiarun Chen, Zhou Yang and Weiping Wen},
-  TITLE =        {Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel},
-  BOOKTITLE =    {Proc. IEEE/IFIP International Conference on Dependable Systems and Networks Workshops(DSN-W)},
-  YEAR =         {2021},
-}
+@INPROCEEDINGS{SCSlicer,
+  author={Liu, Yongzhi and Chen, Xiarun and Yang, Zhou and Wen, Weiping},
+  booktitle={2021 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)}, 
+  title={Automatically Constructing Peer Slices via Semanticand Context-Aware Security Checks in the Linux Kernel}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={108-113},
+  doi={10.1109/DSN-W52860.2021.00028}}
 ```
-
